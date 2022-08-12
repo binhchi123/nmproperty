@@ -1,0 +1,65 @@
+.text a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+}
+
+.icon {
+    background-color: white;
+    position: absolute;
+    bottom: 80px;
+    right: 0px;
+    opacity: 1;
+    height: 30px;
+}
+
+.icon-box-img:hover .icon {
+    opacity: 1;
+}
+
+.icon ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.icon ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.fa-magnifying-glass:hover {
+    color: #ee7b7b;
+}
+
+.fa-heart:hover {
+    color: #ee7b7b;
+}
+
+.fa-cart-shopping:hover {
+    color: #ee7b7b;
+}
+
+.st {
+    display: flex;
+    justify-content: space-between;
+}
+
+::ng-deep label.star {
+    padding: 0 5px !important;
+    font-size: 20px !important;
+}
+
+.more {
+    text-align: center;
+}
+
+.more a {
+    text-transform: uppercase;
+    color: black;
+}
+
+.more:hover a {
+    color: #ee7b7b;
+}

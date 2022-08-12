@@ -1,0 +1,42 @@
+.nav-item a {
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-item .home {
+    color: #ee7b7b;
+}
+
+.main-nav {
+    margin-left: 100px;
+}
+
+.main-nav ul li a {
+    position: relative;
+}
+
+.main-nav .nav-item:hover a {
+    color: #ee7b7b;
+}
+
+.dropdown-menu button {
+    color: gray;
+}
+
+.main-nav .u {
+    color: #ee7b7b;
+}
+
+.u::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background: #ee7b7b;
+    top: 34px;
+    left: 16px;
+}
+
+.dic {
+    margin-left: 100px;
+}
